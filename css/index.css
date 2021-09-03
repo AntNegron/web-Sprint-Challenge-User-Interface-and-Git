@@ -234,13 +234,12 @@ footer nav a {
 
 /* Header Styles/Start of my Styles */
 header nav {
-  /* width: 100%; */
-  padding: 1%;
-  margin: 0 24% 1% 24%;
+  margin: 1.5% auto;
+  width: 800px;
   top: 0;
-  align-items: center;
+  align-items: baseline;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: center;
   flex-flow: row wrap;
 }
@@ -310,7 +309,7 @@ a {
   justify-content: space-around;
   margin-bottom: 7%;
 }
-.about-middle1,
+.about-middle1 h2,
 .about-middle2 h2 {
   margin-top: 15px;
 }
