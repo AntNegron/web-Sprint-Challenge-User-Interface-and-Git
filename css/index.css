@@ -209,11 +209,13 @@ a{
 /* About Page Styles */
 /* top content styles */
 
-.about-text {
+.about-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 2.5%;
     border-bottom: 1px dashed black;
 }
-
+.about-text{
+    margin-bottom: 2%;
+}
