@@ -146,18 +146,24 @@ footer nav a {
 }
 
 /* Header Styles/Start of my Styles */
-header{
+header nav{
     width: 100%;
-}.logo{
+    top: 0;
+    align-items: center;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.logo{
+    display: flex;
+    justify-content: center;
 }
 .links{
     display: flex;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 .header-img{
     display: flex;
-    justify-content: center
-    ;
+    justify-content: center;
 }
