@@ -219,3 +219,25 @@ a{
 .about-text{
     margin-bottom: 2%;
 }
+
+
+
+
+/* About middle content styles */
+
+.about-middle{
+    display: flex;
+    flex-flow: row wrap;
+}
+.strategy{
+    border-bottom: 1px dashed black;
+}
+.how{
+    border-bottom: 1px dashed black;
+}
+.office{
+    border-bottom: 1px dashed black;
+}
+.collaboration{
+    border-bottom: 1px dashed black;
+}
